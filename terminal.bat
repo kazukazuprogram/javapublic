@@ -6,8 +6,8 @@ IF %CURRENT:~0,3%==C:\ (
   copy %BATPATH% Z:\terminal.bat > NUL
   echo Z:\terminal.bat にコピーしました
   echo 次回からは Z:\terminal.bat を開いてください
-  explorer /select,"Z:\terminal.bat" 
   pause
+  explorer /select,"Z:\terminal.bat" 
   goto END
 )
 
